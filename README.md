@@ -1,6 +1,6 @@
 
-## Overview
-This is a Flask web app which predicts fare of Flight ticket.
+<h1 align="center"> Flght Price Predction Model </h1>
+The Flight Price Prediction is a web application that compares current airline prices to historical fare by using an AI algorithm trained on Indian flight booking dataset
 
 ## Directory Tree 
 ```
