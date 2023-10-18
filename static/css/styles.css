@@ -1,57 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap");
 body {
-    background-color: #333333;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+  background-color: #333333;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
-    background-color: #333333;
-   
+  background-color: #333333;
 }
-.navbar-brand{
-    font-size: 40;
+.navbar-brand {
+  font-size: 40;
 }
-.navbar-header p{
-    font-size: 15;
-    color: #ff9900;
+.navbar-header p {
+  font-size: 15;
+  color: #ff9900;
 }
-h5{
+h5 {
   color: #ff9900;
 }
 a {
-    color: #f1f9f9;
+  color: #f1f9f9;
 }
 
 a:hover {
-    color: #f0f0f0;
-  }
-.card{
-    background-color:white;
-    outline: none;
-    background: rgba( 255, 255, 255, 0.05 );
-    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-    backdrop-filter: blur( 11.5px );
-    -webkit-backdrop-filter: blur( 11.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: #f0f0f0;
 }
-.card-body{
-    background-color: none;
-
+.card {
+  background-color: white;
+  outline: none;
+  background: rgba(255, 255, 255, 0.05);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-
-
+.card-body {
+  background-color: none;
+}
 
 /* CSS */
 .button-63 {
   align-items: center;
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   font-family: Phantomsans, sans-serif;
   font-size: 20px;
@@ -80,25 +76,27 @@ a:hover {
   }
 }
 
-p,h3{
-    color: white;
-    
+p,
+h3 {
+  color: white;
 }
 
-select,input{ 
-  background: rgba( 255, 255, 255, 0.15 );
+select,
+input {
+  background: rgba(255, 255, 255, 0.15);
   /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-  backdrop-filter: blur( 11.5px );
-  -webkit-backdrop-filter: blur( 11.5px );
-  border-radius: none;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-select option{
-  background: rgba( 255, 255, 255, 0.05 );
-  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-  backdrop-filter: blur( 11.5px );
-  -webkit-backdrop-filter: blur( 11.5px );
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+select option {
+  background: rgba(255, 255, 255, 0.05);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
